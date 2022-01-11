@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaire de formateur</title>
++
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style_.css">
+    
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container"> 
+            <form method="POST" class="appointment-form" id="appointment-form" action="enregistrer2.php">
+                <h2>Please fill in this form to know about your opinion about this method of learning ! </h2> 
+                <div class="form-group-1">
+                    <div class="form-group">
+                                
+                        
+                            <label for="sex" class="radio-label">Sex :</label>
+                            <table style=" margin-right: 80px">
+                                <tr><td> <label for="male">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHomme</label> </td>
+                                   <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="male" value="Homme" checked> </td></tr>
+                               
+                                <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFemme</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr> </table>
+                                
+                                
+
+                            <label for="date_de_naissance">Date de naissance :</label>
+                            <input type="date" name="date_de_naissance" id="date_de_naissance" placeholder="Entrez votre date de naissance" required/>
+                        
+                            <label for="numero_de_telephone">Numéro de téléphone :</label>
+                            <input type="text" name="numero_de_telephone" id="numero_de_telephone" placeholder="Entrez votre numéro de téléphone" required/>
+                            <label for="fonction">fonction :</label>
+                            <input type="text" name="fonction" id="fonction" required/>
+                        
+                            <label for="experience">Experience profesionelle :</label>
+                            <input type="text" name="experience" id="experience" required/>
+                        
+                            <label for="type"> Domaine : </label>
+                            
+                                 <input type="text" name="domaine" id="domaine" required/>
+                                
+                           
+                            
+                               
+                            
+                    <label for="email">Email :</label>
+                            
+                       
+                    <input type="email" name="email" id="email" placeholder="Entrez votre e-mail" required />
+                    <label for="mot_de_passe">Mot_de_passe :</label>
+                    <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required />
+                    <input type="password" name="password" id="password1" placeholder="resaisissez votre mot de passe" required />
+            
+            
+                </div>
+           
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="envoyer votre demande" onclick="validation()" />
+                </div>
+            </form>
+        </div>
+ </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main_.js"></script>
+</body>
+</html>
+

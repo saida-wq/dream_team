@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaire de formateur</title>
++
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style_.css">
+   
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container"> 
+            <form method="POST" class="appointment-form" id="appointment-form" action="learn.html">
+                <h2>Let us guess your understanding degree ! </h2> 
+                <div class="form-group-1">
+                    <div class="form-group">
+                                <label   for="nom"><font color="black">Full Name</label>
+                                <input type="text" name="nom" id="nom"placeholder="Enter your name"  />
+                            
+                                <label for="prenom">Age</label>
+                                <input type="text" name="prenom" id="prenom"placeholder="Enter your age" />
+                            
+                            <label for="adresse">Degree :</label>
+                            <input type="text" name="adresse" id="adresse" placeholder="Enter your degree" />
+                        
+                            <label for="sex" class="radio-label">In what subject did you find difficulties ?</label>
+                            <table style=" margin-right: 80px">
+                                <tr><td> <label for="male">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEnglish</label> </td>
+                                   <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="male" value="Homme" checked> </td></tr>
+                               
+                                <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArab</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                 <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFrench</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                     <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspScience</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                      <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMaths</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                      <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOther</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+
+
+                                      </table>
+                                      <label for="sex" class="radio-label">How much did you understand the subject ?</label>
+                            <table style=" margin-right: 80px">
+                                <tr><td> <label for="male">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0%</label> </td>
+                                   <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="male" value="Homme" checked> </td></tr>
+                               
+                                <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp25%</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                 <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp50%</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                     <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp75%</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                      <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp100%</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+
+                                      </table>
+                                      <label for="sex" class="radio-label">What method do you prefer to LEARN?</label>
+                            <table style=" margin-right: 80px">
+                                <tr><td> <label for="male">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEducational video</label> </td>
+                                   <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="male" value="Homme"> </td></tr>
+                               
+                                <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTeacher support</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                 <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEducational history</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                     <tr> <td> <label for="female">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOther</label></td>
+
+                                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" id="female" value="Femme"> </td></tr>
+                                     
+
+                                      </table>
+                                      
+
+                           
+            
+            
+                </div>
+           
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="send your answer" onclick="validation()" />
+                </div>
+            </form>
+        </div>
+ </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main_.js"></script>
+</body>
+</html>
